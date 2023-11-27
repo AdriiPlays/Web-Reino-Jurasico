@@ -1,0 +1,105 @@
+
+
+
+.integrantes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.integrante {
+  text-align: center;
+}
+
+.imagen {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+
+
+body {
+  background-color: #1a1a1a !important;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 100px; /* Altura del footer */
+  box-sizing: border-box;
+}
+
+.pie-pagina {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+
+/* Estilos para ajustar la posición del texto */
+.integrante {
+  text-align: center;
+}
+
+
+
+.reglas-cyberpunk {
+
+  color: #fff;
+  
+  font-family: 'Arial', sans-serif;
+}
+
+.reglas-cyberpunk h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.regla {
+  margin-bottom: 20px;
+}
+
+.regla h3 {
+  width: 80%; /* Cambia este valor según sea necesario */
+  margin: 0 auto; /* Centra el texto */
+  text-align: justify; /* Justifica el texto para llenar el espacio */
+}
+
+
+.regla p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+img.izquierda {
+  width: 100px; /* Ancho deseado */
+  height: 100px; /* Altura deseada */
+  position: relative;
+  top: -90px;
+  right: -515px;
+
+}
+
+img.derecha {
+  width: 100px; /* Ancho deseado */
+  height: 100px; /* Altura deseada */
+  position: relative;
+  top: -187px;
+  right: -970px;
+
+}
+

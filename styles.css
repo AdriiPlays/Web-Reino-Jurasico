@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .menu {
+    background-color: #131313;
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+    position: relative;
+  }
+  
+
+  
+
+  
+  .icons {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    top: -10px;
+  }
+  
+  .logo img {
+    max-height: 200px; /* Ajusta el tamaño del logo según sea necesario */
+  }
+  
+  .menu-items {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+  }
+  
+  .menu-items li {
+    margin-right: 30px;
+  }
+  
+  .menu-items li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu-items a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .discord-btn {
+    background-color: blue;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .icons img {
+    width: 20px; /* Ajusta el tamaño de los iconos según sea necesario */
+    margin-left: 5px;
+  }
+  
+  .nuevo-div {
+    width: 100vw;
+    height: 513px;
+    background-color: orange;
+    background-image: url('img/fondo.jpg'); /* Ruta de tu imagen */
+    background-size: cover; /* Cubrir toda el área del div */
+    background-position: center; /* Centrar la imagen */
+  }
+
+  .texto-centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Color del texto */
+  }
+  
+  .texto-centrado h1 {
+    font-size: 48px; /* Tamaño del texto del título */
+    margin-bottom: 20px; /* Espacio entre los textos */
+    text-shadow: 2px 2px 4px black; /* Trazado negro alrededor del texto */
+  }
+  
+  .texto-centrado p {
+    font-size: 24px; /* Tamaño del texto del párrafo */
+    text-shadow: 1px 1px 2px black; /* Trazado negro alrededor del texto */
+  }
+
+
+  .nuevo-div2 {
+    width: 100vw;
+    height: 230px;
+    background-color:#1a1a1a; 
+    background-size: cover; /* Cubrir toda el área del div */
+    background-position: center; /* Centrar la imagen */
+  }
+
+  .texto-arriba {
+text-shadow: 1px 1px 2px black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+font-size: 24px; /* Tamaño del texto del párrafo */
+    background-color: #1a1a1a; 
+  }
+
+  .nuevo-div3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alineación vertical */
+    background-color: #1a1a1a; 
+    padding: 20px;
+  }
+  
+  .izquierda,
+  .otro-dinosaurio,
+  .texto-soporte {
+    width: 30%; /* Ancho aproximado de cada sección */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alineación horizontal */
+  }
+  
+  .derecha {
+    width: 30%; /* Ancho aproximado de la sección */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alineación horizontal */
+  }
+  
+  .texto-izquierda h2 {
+    font-size: 30px; /* Tamaño del texto del título */
+    margin-bottom: 20px; /* Espacio entre los textos */
+    text-shadow: 2px 2px 4px black; /* Trazado negro alrededor del texto */
+    color: white;
+  }
+
+  .texto-izquierda p{
+    text-shadow: 1px 1px 2px black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .texto-derecha p{
+    text-shadow: 1px 1px 2px black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .texto-derecha h2 {
+    font-size: 30px; /* Tamaño del texto del título */
+    margin-bottom: 20px; /* Espacio entre los textos */
+    text-shadow: 2px 2px 4px black; /* Trazado negro alrededor del texto */
+    color: white;
+  }
+
+  .texto-soporte p{
+    text-shadow: 1px 1px 2px black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .texto-soporte h2 {
+    font-size: 30px; /* Tamaño del texto del título */
+    margin-bottom: 20px; /* Espacio entre los textos */
+    text-shadow: 2px 2px 4px black; /* Trazado negro alrededor del texto */
+    color: white;
+  }
+
+  .nuevo-div4 {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    width: 100vw;
+    height: 500px;
+    background-color: rgb(240, 240, 240);
+    background-size: cover; /* Cubrir toda el área del div */
+    background-position: center; /* Centrar la imagen */
+    background-image: url('img/fondo2.jpg'); /* Ruta de tu imagen de fondo */
+  }
+  
+  .nuevo-div4 {
+    position: relative;
+    width: 100vw;
+    height: 500px;
+    background-color: rgb(240, 240, 240);
+    background-size: cover;
+    background-position: center;
+    background-image: url('img/fondo2.jpg');
+  }
+  
+  .nuevo-div4 img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+  }
+  
+  .texto-superpuesto {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+    font-size: 48px; /* Tamaño del texto del título */
+    margin-bottom: 20px; /* Espacio entre los textos */
+    text-shadow: 2px 2px 4px black; /* Trazado negro alrededor del texto */
+  }
+  .nuevo-div5 {
+    width: 100vw;
+    height: 230px;
+    background-color:#1a1a1a; 
+    background-size: cover; /* Cubrir toda el área del div */
+    background-position: center; /* Centrar la imagen */
+    
+
+  }
+
+  .pie-pagina {
+    background-color: black;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+  
+  .nuevo-div6 {
+    width: 100vw;
+    height: 700px;
+    background-color:#1a1a1a; 
+    background-size: cover; /* Cubrir toda el área del div */
+    background-position: center; /* Centrar la imagen */
+  }

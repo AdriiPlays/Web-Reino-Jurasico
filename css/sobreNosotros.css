@@ -1,0 +1,145 @@
+.quienes-somos {
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  padding: 20px;
+}
+
+.quienes-somos p {
+  text-align: center;
+}
+
+.integrantes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.integrante {
+  text-align: center;
+}
+
+.imagen {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.imagen img {
+  width: 200px; /* Ancho fijo para las imágenes */
+  height: 200px; /* Alto fijo para las imágenes */
+  border-radius: 50%; /* Borde redondeado */
+}
+
+.fuego {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  background: url('https  ') repeat;
+  opacity: 0.8; /* Ajusta la opacidad según desees */
+  animation: fuego 1s infinite;
+}
+
+@keyframes fuego {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+body {
+  background-color: #1a1a1a !important;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 100px; /* Altura del footer */
+  box-sizing: border-box;
+}
+
+.pie-pagina {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.integrante {
+  text-align: center;
+  position: relative; /* Cambio en la posición */
+  margin-bottom: 20px; /* Espacio entre las imágenes y los nombres */
+}
+
+.nombre {
+  color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+  background-image: url('https://lavozdelprm.org/wp-content/uploads/2019/06/fuego-gif45.gif');
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  display: inline-block;
+  animation: animateText 10s infinite;
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+
+@keyframes animateText {
+  0% {
+    background-position: 0 0; /* Inicia la animación desde el principio */
+  }
+  100% {
+    background-position: 100% 0; /* Finaliza la animación */
+  }
+}
+
+/* Estilos para ajustar la posición del texto */
+.integrante {
+  text-align: center;
+}
+
+
+.integrante {
+  text-align: center;
+  position: relative; /* Cambio en la posición */
+  margin-bottom: 20px; /* Espacio entre las imágenes y los nombres */
+}
+
+.nombre {
+  color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+  background-image: url('https://lavozdelprm.org/wp-content/uploads/2019/06/fuego-gif45.gif');
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  display: inline-block;
+  animation: animateText 5s infinite;
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
